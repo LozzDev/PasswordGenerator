@@ -1,0 +1,92 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #161b22;
+    color: aliceblue;
+    
+}
+
+.container {
+    text-align: center;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.h1button{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+input[type="text"] {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 90.5%;
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 30px;
+    padding: 0 6px;
+    padding-left: 12px;
+    :focus{
+        border: 3px solid #5551ff;
+    }
+    
+}
+
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: auto;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 10px;
+  
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 10px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
